@@ -81,7 +81,7 @@
             };
             
             items.dbOptions( reqMock, resMock );
-            assert( resMock.send.lastCall.calledWith( { msg: 'Failed to contact server.' } ), 'Unexpected argument: ' + JSON.stringify(resMock.send.lastCall.args) );
+            assert( resMock.send.lastCall.calledWith( { msg: 'Failed to contact servr.' } ), 'Unexpected argument: ' + JSON.stringify(resMock.send.lastCall.args) );
         });
         
         it('DB deleted successfully', function() {  
